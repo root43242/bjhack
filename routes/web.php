@@ -26,6 +26,8 @@ Route::get('/politicas', function () {
     return view('politicas');
 });
 
+Route::post('/redirect/to/buy', [PagesController::class, 'store'])->name('redirect.buy');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -36,5 +38,4 @@ Route::middleware([
     })->name('dashboard');
 
     Route::post('/blackjack/data', [BlackjackController::class, 'calculate'])->name('blackjack.calculate');
-    Route::post('/redirect/to/buy', [PagesController::class, 'store'])->name('redirect.buy');
 });

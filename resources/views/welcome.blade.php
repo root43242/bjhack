@@ -74,7 +74,7 @@ $city = $position->cityName;
     </head>
     <body class="font-sans antialiased bg-black">
 
-    <div id="formModal" class="fixed hidden z-50 bg-gray-800 bg-opacity-90 w-screen h-screen flex justify-center items-center">
+    <div id="formModal" style="z-index: 99999999999999;" class="fixed hidden z-50 bg-gray-800 bg-opacity-90 w-screen h-screen flex justify-center items-center">
     <form class="bg-gray-800 p-8 rounded-lg shadow-lg w-80" method="POST" action="{{ route('redirect.buy') }}">
         @csrf
         <div class="flex flex-col items-center text-center">
@@ -119,7 +119,7 @@ $city = $position->cityName;
     <!-- Título Centralizado e Responsivo -->
     <div class="flex justify-center p-6 w-full text-center text-white">
         <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold w-full sm:w-3/4 md:w-1/2 uppercase">
-            Dono de Cassino Vaza Falha que Revela Jogo <span class="text-red-500">Impossível de Manipular</span>
+            UMA FALHA CAUSOU UM PREJUÍZO DE  <span class="text-red-500">25 MILHÕES DE REAIS</span> EM MAIS DE 150 CASSINOS <span class="text-red-500">COM ESSE NOVO ALGORITMO</span>
         </h1>
     </div>
 
@@ -128,8 +128,7 @@ $city = $position->cityName;
     <div class="w-full flex justify-center p-4">
         <div class="w-full sm:w-5/6 md:w-2/3">
             <div class="relative pb-2 overflow-hidden rounded-lg shadow-lg">
-            <script src="https://cdn.converteai.net/lib/js/smartplayer/v1/sdk.min.js" data-id="66c33fc9bae8aa000bb57e3b"></script> <div id="ifr_66c33fc9bae8aa000bb57e3b_wrapper" style="margin: 0 auto; width: 100%"> <div style="padding:56.25% 0 0 0;position:relative;" id="ifr_66c33fc9bae8aa000bb57e3b_aspect"> <iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/e5d08590-3ca9-4ac8-bfed-2d90d4cdaa5d/players/66c33fc9bae8aa000bb57e3b/embed.html" id="ifr_66c33fc9bae8aa000bb57e3b" style="position:absolute;top:0;left:0;width:100%;height:100%;" referrerpolicy="origin"></iframe> </div> </div> <style> .elementor-element:has(#ifr_66c33fc9bae8aa000bb57e3b_wrapper) { width: 100%; } </style>    
-            </div>    
+            <div id="vid_66c68911904ce4000cf2ded5" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_66c68911904ce4000cf2ded5" src="https://images.converteai.net/e5d08590-3ca9-4ac8-bfed-2d90d4cdaa5d/players/66c68911904ce4000cf2ded5/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66c68911904ce4000cf2ded5" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66c68911904ce4000cf2ded5"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/e5d08590-3ca9-4ac8-bfed-2d90d4cdaa5d/players/66c68911904ce4000cf2ded5/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>            </div>    
         </div>
     </div>    
 
@@ -139,7 +138,7 @@ $city = $position->cityName;
 
 
     <div class="flex delayed-content justify-center p-4" style="display: none;">
-    <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSA EXTENSÃO</a>
+    <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSE ALGORITMO</a>
 </div>
 
 
@@ -150,7 +149,7 @@ $city = $position->cityName;
     <div class="text-center w-full sm:w-4/6 flex flex-col p-4 sm:p-0">
         <h1 class="p-2 sm:p-4 bg-white text-red-600 text-xl sm:text-2xl uppercase font-extrabold rounded-xl">Chega de perder dinheiro com jogos manipulados</h1>
         <span class="mt-[10px] sm:mt-[20px] text-sm sm:text-lg text-white">
-            Essa extensão estará disponível por tempo limitado para venda. Começamos a divulgá-la em <span class="font-bold">{{ \Carbon\Carbon::yesterday()->format('d/m/Y') }}</span> e acreditamos que ela <span class="font-extrabold">só estará disponivel até HOJE</span>. Se você deseja recuperar os prejuízos que teve com casas de apostas, recomendamos que adquira a extensão o quanto antes.
+            Essa Algoritmo estará disponível por tempo limitado para venda. Começamos a divulgá-la em <span class="font-bold">{{ \Carbon\Carbon::yesterday()->format('d/m/Y') }}</span> e acreditamos que ela <span class="font-extrabold">só estará disponivel até HOJE</span>. Se você deseja recuperar os prejuízos que teve com casas de apostas, recomendamos que adquira a Algoritmo o quanto antes.
         </span>
 
         <h1 class="p-2 sm:p-4 mt-[30px] sm:mt-[50px] bg-gray-500 text-green-400 text-lg sm:text-xl uppercase font-extrabold rounded-xl"><i class="fa-solid fa-down-long mr-4"></i> Pessoas que adquiriram e estão tendo resultados <i class="fa-solid fa-down-long ml-4"></i></h1>
@@ -164,7 +163,7 @@ $city = $position->cityName;
             </div>
 
         <div class="flex justify-center p-4">
-            <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSA EXTENSÃO</a>
+            <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSE ALGORITMO</a>
         </div>
     </div>
 </div>
@@ -176,34 +175,34 @@ $city = $position->cityName;
     
     <div class="w-3/4 text-left">
         <div class="mb-6">
-            <h3 class="text-xl font-bold text-red-500">1. Como a extensão realmente funciona?</h3>
-            <p class="text-gray-300 mt-2">A extensão utiliza um algoritmo avançado que analisa padrões em tempo real, identificando falhas nas jogadas que aumentam suas chances de vitória. Tudo isso é feito automaticamente, sem que você precise de conhecimentos técnicos.</p>
+            <h3 class="text-xl font-bold text-red-500">1. Como a Algoritmo realmente funciona?</h3>
+            <p class="text-gray-300 mt-2">A Algoritmo utiliza um algoritmo avançado que analisa padrões em tempo real, identificando falhas nas jogadas que aumentam suas chances de vitória. Tudo isso é feito automaticamente, sem que você precise de conhecimentos técnicos.</p>
         </div>
 
         <div class="mb-6">
             <h3 class="text-xl font-bold text-red-500">2. Consigo usar no meu celular?</h3>
-            <p class="text-gray-300 mt-2">Sim! A extensão funciona em todos os tipos de dispositivos.</p>
+            <p class="text-gray-300 mt-2">Sim! A Algoritmo funciona em todos os tipos de dispositivos.</p>
         </div>
 
         <div class="mb-6">
-            <h3 class="text-xl font-bold text-red-500">3. Quais são os requisitos mínimos para usar a extensão?</h3>
-            <p class="text-gray-300 mt-2">A extensão é compatível com os principais navegadores de internet. Tudo o que você precisa é de um computador ou dispositivo móvel com acesso à internet para começar a usar.</p>
+            <h3 class="text-xl font-bold text-red-500">3. Quais são os requisitos mínimos para usar a Algoritmo?</h3>
+            <p class="text-gray-300 mt-2">A Algoritmo é compatível com os principais navegadores de internet. Tudo o que você precisa é de um computador ou dispositivo móvel com acesso à internet para começar a usar.</p>
         </div>
 
         <div class="mb-6">
-            <h3 class="text-xl font-bold text-red-500">4. A extensão é legal e segura de usar?</h3>
-            <p class="text-gray-300 mt-2">Sim, a extensão é completamente legal e segura. Ela não interfere nos sistemas dos cassinos, mas apenas identifica oportunidades baseadas em estatísticas e padrões de jogo.</p>
+            <h3 class="text-xl font-bold text-red-500">4. A Algoritmo é legal e segura de usar?</h3>
+            <p class="text-gray-300 mt-2">Sim, a Algoritmo é completamente legal e segura. Ela não interfere nos sistemas dos cassinos, mas apenas identifica oportunidades baseadas em estatísticas e padrões de jogo.</p>
         </div>
 
         <div class="mb-6">
-            <h3 class="text-xl font-bold text-red-500">5. Como eu recebo a extensão após a compra?</h3>
-            <p class="text-gray-300 mt-2">Após a confirmação do pagamento, você receberá um e-mail com um link para baixar a extensão e instruções detalhadas de instalação.</p>
+            <h3 class="text-xl font-bold text-red-500">5. Como eu recebo a Algoritmo após a compra?</h3>
+            <p class="text-gray-300 mt-2">Após a confirmação do pagamento, você receberá um e-mail com um link para baixar a Algoritmo e instruções detalhadas de instalação.</p>
         </div>
     </div>
 </div>
 
         <div class="flex delayed-content justify-center p-4" style="display: none;">
-            <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSA EXTENSÃO</a>
+            <a class="showFormBtn actionbutton p-4 sm:p-6 text-2xl text-purple-600 bg-[#B8F708] font-bold rounded-xl text-center" href="#">QUERO TER ACESSO A ESSE ALGORITMO</a>
         </div>
 
 
